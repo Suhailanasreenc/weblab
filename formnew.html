@@ -1,0 +1,48 @@
+	<html>
+	<head> REGISTRATION FORM
+	<style>
+        input[type="text"] {
+            background-color: white;
+            color: lghtblue; 
+	</style>
+	</head><br><br>
+	<body>
+	<form>
+	<label>Name: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </label>
+	<input type="text" name="first_name" required><br><br>
+	<label>Password: &nbsp</label>
+	<input type="password" name="password" size="20" required><br><br>
+	<label>Mobile: &nbsp&nbsp&nbsp&nbsp&nbsp</label>
+	<input type="number" name="mobile" size="20" maxlength="10" required><br><br>
+	<label>Address: &nbsp&nbsp&nbsp</label>
+	<textarea placeholder="address" name="address" required></textarea><br><br>
+	<label for="dob">DOB: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+	<input type="date" id="dob" name="dob" required><br><br>
+	<label>Email: &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
+	<input type="text" name="e_mail" placeholder="example@gmail.com" required><br><br>
+	<label>Nationality: </label>
+	<select required>
+	<option>Indian</option>
+	<option>American</option>
+	<option>China</option>
+	</select><br><br>
+	<label>Gender: &nbsp&nbsp&nbsp&nbsp&nbsp</label>
+	<input type="radio" id="male" name="gender" value="male" required>Male
+	<input type="radio" id="female" name="gender" value="female" required>female
+	<input type="radio" id="other" name="gender" value="other" required>other
+	<br><br>
+	<fieldset>
+	<legend>
+	<label>Language known: </label>
+	</legend>
+	<input type="checkbox" name="english" value="english">English<br><br>
+	<input type="checkbox" name="malayalam" value="malayalam">Malayalam<br><br>
+	<input type="checkbox" name="hindi" value="hindi">Hindi<br><br>
+	<input type="checkbox" name="arabic" value="arabic">Arabic<br><br>
+	</fieldset>
+	<br><br>
+	<input type="submit" value="Submit" style="background-color: #4CAF50; color: white;">
+	<input type="submit" value="Cancel" style="background-color: #4CAF50; color: white;">
+	</form>
+	</body>
+	</html>
